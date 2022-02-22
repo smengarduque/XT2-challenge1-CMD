@@ -1,0 +1,165 @@
+html {
+	box-sizing: border-box;
+}
+
+*, 
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+	background-color: #000834;
+	color: #FFFFFF;
+  font-family: Helvetica Neue, sans-serif;
+}
+
+h2 {
+  font-size: 14px;
+  color: #31385F;
+}
+
+p {
+  font-size: 14px;
+}
+
+.images img{
+  float: left;
+  margin-left: 350px;
+  margin-top: -400px;
+}
+
+.main, .ad1, .ad2, .foot{
+  position: relative;
+  background-color: #31385F;
+  margin-left: 10px;
+  border-radius: 12px;
+  margin-top:40px;
+}
+
+#piechart rect{
+  fill: #31385F;
+}
+
+#piechart text{
+  fill: #000;
+}
+
+#piechart path{
+  fill: #64F9FF;
+}
+
+#piechart circle{
+  fill: #64F9FF;
+}
+
+#areaChart{
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+#areaChart rect{
+  fill: #31385F;
+}
+
+#areaChart text{
+  fill: #fff;
+}
+
+#areaChart path{
+  stroke: #FF45BE;
+}
+
+.header {
+  margin-left: 10px;
+  margin-top:40px;
+}
+#menu {
+    background-color: #31385F;
+}
+.main {
+    background-color: #31385F;
+}
+.ad1 {
+    background-color: #31385F;
+}
+.ad2 {
+    background-color: #31385F;
+}
+.foot {
+  background-color: #31385F;
+  margin-left: 10px;
+  border-radius: 12px;
+  margin-top:40px;
+  text-align: center;
+  color: #727DBC;
+}
+
+img {
+  width: 100%;
+  margin: 0;
+}
+
+footer {
+
+}
+
+@media only screen and (min-width: 601px){
+  q {
+    width: 6em;
+    float: right;
+    font-size: 1.4em;
+    padding: 0.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  p {
+    font-size: 15px;
+    padding-right: 200px;
+  }
+
+  h1 {
+    font-size: 45px;
+    padding-right: 100px;
+  }
+
+  .images img{
+    float: left;
+    margin-left: 600px;
+    margin-top: -450px;
+  }
+}
+
+@media only screen and (min-width: 601px){
+  p {
+    padding-right: 250px;
+  }
+
+  h1 {
+    padding-right: 150px;
+  }
+
+  .images img{
+    float: left;
+    margin-left: 650px;
+    margin-top: -500px;
+  }
+}
+
+@media only screen and (min-width: 1000px){
+  p {
+    padding-right: 500px;
+  }
+
+  h1 {
+    padding-right: 600px;
+  }
+
+  .images img{
+    float: left;
+    margin-left: 1000px;
+    margin-top: -800px;
+  }
+}
